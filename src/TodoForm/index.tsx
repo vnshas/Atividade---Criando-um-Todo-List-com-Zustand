@@ -4,8 +4,8 @@ import {useFormStore} from "../stores/useFormStore"
 export const TodoForm = () => {
     
     type Profile = {
-        name: "string"
-        id:string
+        name: string
+        id: string
     }
 
     const {addTask,todoList} = useFormStore((store) => store)
